@@ -3,7 +3,8 @@ use strict;
 use warnings FATAL => 'all';
 no warnings 'experimental';
 use 5.22.1;
-
+#use Wx qw(:everything);
+#use Wx::MDI;
 my $nl = "\r\n";
 
 
@@ -17,6 +18,11 @@ use DataTypeExample;
 use DateTimeExample;
 use MiscellaneousExample;
 use FileIOExample;
+use SendingEmailExample;
+use DatabaseExample ;
+use WxExample1;
+use WxExample2;
+#use wx::SimpleApp;
 
 sub test_Box {
    my $b1 = new Box(3, 3, 3);
@@ -150,7 +156,34 @@ sub test_FileIOExample {
 #    $runner->example1();
 #    $runner->example2();
 #    $runner->example3();
-    $runner->example4(); 
+#    $runner->example4();
+#    $runner->example5();
+#    $runner->example6();
+#    $runner->example7();
+    $runner->example8();
+}
+
+
+sub test_SendingEmailExample {
+    my $runner  = new SendingEmailExample();
+#    $runner->example1();
+    $runner->example2();
+}
+
+
+sub test_DatabaseExample {
+    my $runner = new DatabaseExample();
+    $runner->example1();
+}
+
+sub test_WxExample1 {
+    my  $app = WxExample1->new ;
+    $app->MainLoop;
+}
+
+sub test_WxExample2 {
+    my  $app = WxExample2->new ;
+    $app->MainLoop;
 }
 
 
@@ -163,4 +196,8 @@ sub test_FileIOExample {
 #test_DataTypeExample();
 #test_DateTimeExample();
 #test_MiscellaneousExample();
-test_FileIOExample();
+#test_FileIOExample();
+#test_SendingEmailExample();
+#test_DatabaseExample();
+#test_WxExample1();
+test_WxExample2 ;

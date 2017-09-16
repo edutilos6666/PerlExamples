@@ -144,4 +144,122 @@ sub example4 {
     close $fh_out ;
 }
 
+# file read entire content
+sub example5 {
+    my $filename = "workers2.txt";
+    open (my $fh , "<$filename") or die "could not open $filename for reading $nl" ;
+
+    my @lines = <$fh>;
+    close $fh ;
+    print @lines ;
+}
+
+
+# user input
+# run this from terminal (perl Runner.pl)
+sub example6 {
+    my ($id , $name, $age, $wage, $active);
+
+    # id
+    print "insert your id: ";
+    $id = <STDIN>;  # or : $id = <>;
+    $id += 0;
+
+    # name
+    print "insert your name: ";
+    $name = <>;
+    $name = rtrim $name;
+
+    # age
+    print "insert your age: ";
+    $age = <> + 0 ;
+
+    # wage
+    print "insert your wage: ";
+    $wage = <> + 0.0;
+
+    # active
+    print "insert whether you are active: ";
+    $active = <> + 0;
+
+    $active = 1 if($active != 0);
+
+
+    print "id = $id
+name = $name
+age = $age
+wage = $wage
+active = $active $nl";
+
+}
+
+
+
+# file infos
+sub example7 {
+    my $filename = "workers.txt";
+    # @description was not used.
+    my (@description, $size);
+    my $binary = 0  ;
+    my $socket = 0 ;
+    my $textFile = 0 ;
+    my $blockSpecialFile = 0;
+    my $characterSpecialFile = 0;
+    my $directory = 0 ;
+    my $executable = 0 ;
+
+
+    if(-e $filename) {
+        $binary = 1 if (-B _);
+        $socket = 1 if (-S _);
+        $textFile = -T _;
+        $blockSpecialFile = -b _;
+        $characterSpecialFile = -c _;
+        $directory = -d _;
+        $executable = -x _;
+        $size = -s _;
+    }
+
+    print "binary = $binary $nl";
+    print "socket = $socket $nl";
+    print "textFile = $textFile $nl";
+    print "block special file = $blockSpecialFile $nl";
+    print "character special file = $characterSpecialFile $nl";
+    print "directory = $directory $nl";
+    print "executable = $executable $nl";
+    print "size = $size $nl";
+}
+
+
+
+# working with directories
+sub example8 {
+    # glob
+    # all files and dirs inside /tmp
+    my $dir = "/tmp/*";
+    my @files = glob($dir);
+    print "<<all files and dirs inside /tmp dir>> $nl";
+    foreach (@files) {
+        print "$_ $nl";
+    }
+
+    print $nl;
+    $dir = "/tmp/*.tmp";
+    @files = glob($dir);
+    print "<<all files with .tmp ext inside /tmp dir>> $nl";
+    foreach (@files) {
+        print "$_ $nl";
+    }
+
+    print $nl;
+
+
+    # mkdir , chdir , rmdir
+    $dir = "/tmp/pako";
+    mkdir($dir) or die "could not mkdir $dir $nl";
+    chdir($dir) or die "could not chdir to $dir $nl";
+    rmdir($dir) or die "could not rmdir $dir $nl";
+}
+
+
 1;

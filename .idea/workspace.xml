@@ -2,17 +2,17 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/Box.pm" line="95" mnemonic="8" />
-    <bookmark url="file://$PROJECT_DIR$/Runner.pl" line="51" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cbc5045-64d4-4207-b5d8-21b6646e202f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataTypeExample.pm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DateTimeExample.pm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DecisionMakingExample.pm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FileIOExample.pm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LoopExample.pm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MiscellaneousExample.pm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/perl5local.xml" afterPath="$PROJECT_DIR$/.idea/perl5local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CgiExample1.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CgiExample2.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DatabaseExample.pm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SendingEmailExample.pm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WxExample1.pm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WxExample2.pm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileIOExample.pm" afterPath="$PROJECT_DIR$/FileIOExample.pm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runner.pl" afterPath="$PROJECT_DIR$/Runner.pl" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,63 +27,46 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Runner.pl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Runner.pl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="152" column="25" lean-forward="false" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
+            <state relative-caret-position="180">
+              <caret line="153" column="24" lean-forward="true" selection-start-line="153" selection-start-column="24" selection-end-line="153" selection-end-column="24" />
               <folding>
-                <element signature="e#118#127#0#Perl5" expanded="true" />
-                <element signature="e#2659#2684#0#Perl5" expanded="true" />
-                <element signature="e#3199#3224#0#Perl5" expanded="true" />
-                <element signature="e#3368#3393#0#Perl5" expanded="true" />
-                <element signature="e#3477#3489#0#Perl5" expanded="true" />
+                <element signature="e#97#121#0#Perl5" expanded="true" />
+                <element signature="e#156#165#0#Perl5" expanded="true" />
+                <element signature="e#4100#4112#0#Perl5" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workers3.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workers3.txt">
+      <file leaf-file-name="WxExample1.pm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WxExample1.pm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileIOExample.pm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FileIOExample.pm">
+      <file leaf-file-name="WxExample2.pm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WxExample2.pm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="143" column="19" lean-forward="false" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
-              <folding>
-                <element signature="e#1469#1489#0#Perl5" expanded="true" />
-              </folding>
+            <state relative-caret-position="36">
+              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MiscellaneousExample.pm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MiscellaneousExample.pm">
+      <file leaf-file-name="Employee.pm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Employee.pm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="162" column="0" lean-forward="true" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-              <folding>
-                <element signature="e#1357#1432#0#Perl5" expanded="true" />
-                <element signature="e#3582#3602#0#Perl5" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workers2.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workers2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -98,6 +81,15 @@
         <option value="Perl5 package" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>password</find>
+      <find>person</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>worker</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -121,6 +113,17 @@
         <option value="$PROJECT_DIR$/ReferenceExample.pm" />
         <option value="$PROJECT_DIR$/MiscellaneousExample.pm" />
         <option value="$PROJECT_DIR$/FileIOExample.pm" />
+        <option value="$PROJECT_DIR$/SendingEmailExample.pm" />
+        <option value="$PROJECT_DIR$/DatabaseExample.pm" />
+        <option value="$PROJECT_DIR$/CgiExample1.pm" />
+        <option value="$PROJECT_DIR$/CgiExample2.pl" />
+        <option value="$PROJECT_DIR$/CgiExample1.pl" />
+        <option value="$PROJECT_DIR$/WxExamples.pm" />
+        <option value="$PROJECT_DIR$/wxExamples/WxExample2.pm" />
+        <option value="$PROJECT_DIR$/wxExamples/WxExample1.pm" />
+        <option value="$PROJECT_DIR$/wxExamples/WxRunner.pl" />
+        <option value="$PROJECT_DIR$/WxExample1.pm" />
+        <option value="$PROJECT_DIR$/WxExample2.pm" />
         <option value="$PROJECT_DIR$/Runner.pl" />
       </list>
     </option>
@@ -132,10 +135,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-11" />
-    <option name="width" value="1303" />
-    <option name="height" value="780" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1301" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -156,6 +159,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,14 +174,21 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="PERL5_MAIN_SETTINGS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wxExamples" />
     <property name="GO_FMT" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wxExamples" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,6 +250,38 @@
       <option name="useAlternativeSdk" value="false" />
       <option name="workingDirectory" />
       <option name="SCRIPT_PATH" value="$PROJECT_DIR$/Runner.pl" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="PERL_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENVS">
+        <map />
+      </option>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="CHARSET" value="UTF-8" />
+      <option name="USE_ALTERNATIVE_SDK" value="false" />
+      <option name="ALTERNATIVE_SDK_PATH" />
+      <option name="scriptCharset" value="utf8" />
+      <option name="startMode" value="RUN" />
+      <option name="isNonInteractiveModeEnabled" value="false" />
+      <option name="isCompileTimeBreakpointsEnabled" value="false" />
+      <option name="initCode" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="WxRunner.pl" type="#PerlConfigurationType" factoryName="Perl" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="alternativeSdkPath" />
+      <option name="compileTimeBreakpointsEnabled" value="false" />
+      <option name="consoleCharset" value="UTF-8" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="nonInteractiveModeEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="perlParameters" value="" />
+      <option name="programParameters" />
+      <option name="scriptPath" value="$PROJECT_DIR$/wxExamples/WxRunner.pl" />
+      <option name="useAlternativeSdk" value="false" />
+      <option name="workingDirectory" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/wxExamples/WxRunner.pl" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="PERL_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" />
@@ -411,15 +454,17 @@
       <option name="initCode" value="" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Perl.Example1" />
       <item index="1" class="java.lang.String" itemvalue="Perl.Example2.pl" />
       <item index="2" class="java.lang.String" itemvalue="Perl.Runner.pl" />
+      <item index="3" class="java.lang.String" itemvalue="Perl.WxRunner.pl" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Perl.Runner.pl" />
-        <item index="1" class="java.lang.String" itemvalue="Perl.Example2.pl" />
+        <item index="1" class="java.lang.String" itemvalue="Perl.WxRunner.pl" />
+        <item index="2" class="java.lang.String" itemvalue="Perl.Example2.pl" />
       </list>
     </recent_temporary>
   </component>
@@ -438,6 +483,8 @@
       <updated>1505558337035</updated>
       <workItem from="1505558338577" duration="8302000" />
       <workItem from="1505572512667" duration="10201000" />
+      <workItem from="1505583609617" duration="84000" />
+      <workItem from="1505584037891" duration="9479000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1505566050969</created>
@@ -450,17 +497,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18503000" />
+    <option name="totallyTimeSpent" value="28066000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22290546" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19292852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3258595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28400597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -486,15 +532,106 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Employee.pm">
+    <entry file="file://$PROJECT_DIR$/Runner.pl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="2628">
+          <caret line="146" column="0" lean-forward="true" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding>
+            <element signature="e#156#165#0#Perl5" expanded="true" />
+            <element signature="e#2796#2821#0#Perl5" expanded="false" />
+            <element signature="e#3336#3361#0#Perl5" expanded="false" />
+            <element signature="e#3505#3530#0#Perl5" expanded="false" />
+            <element signature="e#4100#4112#0#Perl5" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workers3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MiscellaneousExample.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2916">
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding>
+            <element signature="e#1357#1432#0#Perl5" expanded="false" />
+            <element signature="e#3582#3602#0#Perl5" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workers2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileIOExample.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2664">
+          <caret line="148" column="4" lean-forward="false" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
+          <folding>
+            <element signature="e#1469#1489#0#Perl5" expanded="false" />
+            <element signature="e#3817#3829#0#Perl5" expanded="false" />
+            <element signature="e#5401#5407#0#Perl5" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runner.pl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#156#165#0#Perl5" expanded="true" />
+            <element signature="e#2796#2821#0#Perl5" expanded="false" />
+            <element signature="e#3336#3361#0#Perl5" expanded="false" />
+            <element signature="e#3505#3530#0#Perl5" expanded="false" />
+            <element signature="e#4100#4112#0#Perl5" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workers3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileIOExample.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2556">
+          <caret line="143" column="19" lean-forward="false" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
+          <folding>
+            <element signature="e#1469#1489#0#Perl5" expanded="false" />
+            <element signature="e#3817#3829#0#Perl5" expanded="false" />
+            <element signature="e#5401#5407#0#Perl5" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MiscellaneousExample.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2844">
+          <caret line="162" column="0" lean-forward="true" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding>
+            <element signature="e#1357#1432#0#Perl5" expanded="false" />
+            <element signature="e#3582#3602#0#Perl5" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -509,13 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3582">
           <caret line="205" column="40" lean-forward="false" selection-start-line="205" selection-start-column="40" selection-end-line="205" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Person.pm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="57" column="2" lean-forward="true" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -545,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -553,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-756">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -569,9 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
-          <folding>
-            <element signature="e#106#129#0#Perl5" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -579,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,35 +710,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workers2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MiscellaneousExample.pm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="162" column="0" lean-forward="true" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        <state relative-caret-position="2844">
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
           <folding>
-            <element signature="e#1357#1432#0#Perl5" expanded="true" />
-            <element signature="e#3582#3602#0#Perl5" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileIOExample.pm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="143" column="19" lean-forward="false" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
-          <folding>
-            <element signature="e#1469#1489#0#Perl5" expanded="true" />
+            <element signature="e#1357#1432#0#Perl5" expanded="false" />
+            <element signature="e#3582#3602#0#Perl5" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -628,16 +732,138 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/workers2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Person.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="57" column="2" lean-forward="true" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CgiExample1.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CgiExample2.pl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="e#58#86#0#Perl5" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CgiExample1.pl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="66" column="14" lean-forward="false" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+          <folding>
+            <element signature="e#59#87#0#Perl5" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DatabaseExample.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SendingEmailExample.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="58" column="30" lean-forward="true" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+          <folding>
+            <element signature="e#140#179#0#Perl5" expanded="true" />
+            <element signature="e#772#790#0#Perl5" expanded="true" />
+            <element signature="e#1210#1264#0#Perl5" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileIOExample.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#1469#1489#0#Perl5" expanded="false" />
+            <element signature="e#3817#3829#0#Perl5" expanded="false" />
+            <element signature="e#5401#5407#0#Perl5" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Employee.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxExamples/WxExample2.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxExamples/WxExample1.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="27" column="3" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxExamples/WxRunner.pl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WxExample2.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WxExample1.pm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Runner.pl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="152" column="25" lean-forward="false" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
+        <state relative-caret-position="180">
+          <caret line="153" column="24" lean-forward="true" selection-start-line="153" selection-start-column="24" selection-end-line="153" selection-end-column="24" />
           <folding>
-            <element signature="e#118#127#0#Perl5" expanded="true" />
-            <element signature="e#2659#2684#0#Perl5" expanded="true" />
-            <element signature="e#3199#3224#0#Perl5" expanded="true" />
-            <element signature="e#3368#3393#0#Perl5" expanded="true" />
-            <element signature="e#3477#3489#0#Perl5" expanded="true" />
+            <element signature="e#97#121#0#Perl5" expanded="true" />
+            <element signature="e#156#165#0#Perl5" expanded="true" />
+            <element signature="e#4100#4112#0#Perl5" expanded="true" />
           </folding>
         </state>
       </provider>
