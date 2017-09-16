@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 use strict;
 use warnings FATAL => 'all';
+no warnings 'experimental';
+use 5.22.1;
 
 my $nl = "\r\n";
 
@@ -9,7 +11,12 @@ my $nl = "\r\n";
 use Box ;
 use ComplexNumber;
 use OperatorsExample ;
-
+use DecisionMakingExample;
+use LoopExample;
+use DataTypeExample;
+use DateTimeExample;
+use MiscellaneousExample;
+use FileIOExample;
 
 sub test_Box {
    my $b1 = new Box(3, 3, 3);
@@ -95,6 +102,65 @@ sub test_OperatorsExample {
 }
 
 
+
+sub test_DecisionMakingExample {
+    my $runner = new DecisionMakingExample();
+    $runner->example1();
+    $runner->example2();
+}
+
+sub test_LoopExample {
+    my $runner = new LoopExample();
+#    $runner->example1();
+#    $runner->example2();
+#    $runner->example3();
+#    $runner->example4();
+#    $runner->example5();
+#    $runner->example6();
+#    $runner->example7();
+#    $runner->example8();
+    $runner->example9();
+}
+
+
+
+sub test_DataTypeExample {
+    my $runner = new DataTypeExample();
+#    $runner->arrayExample();
+    $runner->hashExample();
+}
+
+
+sub test_DateTimeExample {
+    my $runner = new DateTimeExample();
+    $runner->example1();
+}
+
+
+sub test_MiscellaneousExample {
+    my $runner = new MiscellaneousExample();
+#    $runner->example1();
+#    $runner->example2();
+#    $runner->example3();
+    $runner->example4();
+}
+
+sub test_FileIOExample {
+    my $runner = new FileIOExample();
+#    $runner->example1();
+#    $runner->example2();
+#    $runner->example3();
+    $runner->example4(); 
+}
+
+
+
 #test_Box();
 #test_ComplexNumber();
-test_OperatorsExample();
+#test_OperatorsExample();
+#test_DecisionMakingExample();
+#test_LoopExample();
+#test_DataTypeExample();
+#test_DateTimeExample();
+#test_MiscellaneousExample();
+test_FileIOExample();
